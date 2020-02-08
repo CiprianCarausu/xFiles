@@ -1,3 +1,5 @@
+package service;
+
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -5,7 +7,7 @@ import java.util.List;
 public class ReadFile {
 
     public static List<String> readFile(String path) throws Exception {
-        // pass the path to the file as a parameter
+
         FileReader fr = new FileReader(path);
 
         BufferedReader br = new BufferedReader(fr);
