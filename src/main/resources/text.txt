@@ -1,0 +1,5 @@
+car: name, opel;color, red;speed, 50;
+obstacle: type, hole;size, 3;
+obstacle: type, hole;size, 2;
+obstacle: type, animal;size, 2;
+obstacle: type, sign;
