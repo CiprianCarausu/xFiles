@@ -9,6 +9,10 @@ public class Obstacle {
         this.size = size;
     }
 
+    public Obstacle() {
+
+    }
+
     public String getType() {
         return type;
     }
@@ -23,5 +27,13 @@ public class Obstacle {
 
     public void setSize(int size) {
         this.size = size;
+    }
+
+    @Override
+    public String toString() {
+        return "Obstacle{" +
+                "type='" + type + '\'' +
+                ", size=" + size +
+                '}';
     }
 }

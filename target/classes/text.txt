@@ -1,3 +1,5 @@
+---------------------------------------------------------
+D:\Java\Projects -\readFromTxt\src\main\resources\text.txt
 car: name, opel;color, red;speed, 50;
 obstacle: type, hole;size, 3;
 obstacle: type, hole;size, 2;

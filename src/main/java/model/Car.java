@@ -12,6 +12,8 @@ public class Car {
         this.speed = speed;
     }
 
+    public Car(){}
+
 
     public String getName() {
         return name;
@@ -35,5 +37,14 @@ public class Car {
 
     public void setSpeed(int speed) {
         this.speed = speed;
+    }
+
+    @Override
+    public String toString() {
+        return "Car{" +
+                "name='" + name + '\'' +
+                ", color='" + color + '\'' +
+                ", speed=" + speed +
+                '}';
     }
 }

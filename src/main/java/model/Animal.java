@@ -5,5 +5,7 @@ public class Animal extends Obstacle{
         super(type, size);
     }
 
+    public Animal() {
 
+    }
 }
