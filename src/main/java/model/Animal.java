@@ -1,11 +1,17 @@
 package model;
 
-public class Animal extends Obstacle {
+import Features.Moveable;
+
+public class Animal extends Obstacle implements Moveable {
     public Animal(String type, int size) {
         super(type, size);
     }
 
     public Animal() {
+
+    }
+
+    public void canMove() {
 
     }
 
