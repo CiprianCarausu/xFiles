@@ -9,21 +9,21 @@ public class TestFile {
         String path = "D:\\Java\\Projects -\\readFromTxt\\src\\main\\resources\\text.txt";
 
 
-        List<String> myList = ReadFile.readFile(path);
+        List<String> linesFromFile = ReadFile.readFile(path);
 
-//   /*     for (int i = 0; i < myList.size(); i++) {
-//            System.out.println(myList.get(i));
+//   /*     for (int i = 0; i < linesFromFile.size(); i++) {
+//            System.out.println(linesFromFile.get(i));
 //        }
-//        for (String element : myList) {
+//        for (String element : linesFromFile) {
 //            System.out.println(element);
 //        }*/
         Deserialization deserialization = new Deserialization();
-        for (String element : myList) {
+        for (String line : linesFromFile) {
          try{
-             System.out.println(deserialization.deserialize(element));
+             System.out.println(deserialization.deserialize(line));
          }
          catch (Exception ex){
-             System.out.println("Wrong text: " + element);
+             System.out.println("Wrong text: " + line);
          }
         }
     }

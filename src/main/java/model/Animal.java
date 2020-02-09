@@ -1,6 +1,6 @@
 package model;
 
-public class Animal extends Obstacle{
+public class Animal extends Obstacle {
     public Animal(String type, int size) {
         super(type, size);
     }
@@ -8,4 +8,12 @@ public class Animal extends Obstacle{
     public Animal() {
 
     }
+
+  /*  @Override
+    public String toString() {
+        return "Animal{" +
+                "type='" + this.getType() + '\'' +
+                ", size=" + this.getSize() +
+                '}';
+    }*/
 }

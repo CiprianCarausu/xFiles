@@ -11,8 +11,11 @@ public class Hole extends Obstacle {
 
     }
 
-    @Override
+    /*@Override
     public String toString() {
-        return "Hole{}";
-    }
+        return "Hole{" +
+                "type='" + this.getType() + '\'' +
+                ", size=" + this.getSize() +
+                '}';*/
+ //   }
 }

@@ -31,7 +31,7 @@ public class Obstacle {
 
     @Override
     public String toString() {
-        return "Obstacle{" +
+        return this.getClass().getSimpleName() + "{" +
                 "type='" + type + '\'' +
                 ", size=" + size +
                 '}';
