@@ -2,14 +2,16 @@ import model.Obstacle;
 import service.Deserialization;
 import service.ReadFile;
 
+import java.io.File;
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.List;
 
 public class TestFile {
     public static void main(String[] args) throws Exception {
-
-        String path = "D:\\Java\\Projects -\\readFromTxt\\src\\main\\resources\\text.txt";
+        File file = new File(TestFile.class.getClassLoader().getResource("text.txt").getFile());
+        String path = file.getAbsolutePath();
+        path = path.replace("%20" , " ");
 
 
         List<String> linesFromFile = ReadFile.readFile(path);

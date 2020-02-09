@@ -23,8 +23,7 @@ public class ObjectFactory {
             obstacle.setType(objectAttributesValues.get(Constants.TYPE));
             try {
                 obstacle.setSize(Integer.parseInt(objectAttributesValues.get(Constants.SIZE)));
-            }
-            catch (Exception e){
+            } catch (Exception e) {
                 System.out.println("--- Invalid key.");
             }
             return obstacle;
