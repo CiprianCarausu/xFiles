@@ -2,19 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8fb39918-a112-4014-a728-7fa93d69b51b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/TestFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Animal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/Obstacle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Obstacle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/factory/ObjectFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/factory/ObjectFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/service/Tools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/Tools.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/readFromTxt.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TestFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TestFile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Animal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/Obstacle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Obstacle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/factory/ObjectFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/factory/ObjectFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/text.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/text.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +81,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581148159012</updated>
-      <workItem from="1581752467105" duration="3187000" />
+      <workItem from="1581752467105" duration="6408000" />
     </task>
     <servers />
   </component>
@@ -117,22 +110,22 @@
       <screen x="0" y="0" width="1376" height="774" />
     </state>
     <state x="469" y="143" key="FileChooserDialogImpl/0.0.1376.774@0.0.1376.774" timestamp="1581755679251" />
-    <state width="1333" height="176" key="GridCell.Tab.0.bottom" timestamp="1581755669988">
+    <state width="1333" height="175" key="GridCell.Tab.0.bottom" timestamp="1581756912065">
       <screen x="0" y="0" width="1376" height="774" />
     </state>
-    <state width="1333" height="176" key="GridCell.Tab.0.bottom/0.0.1376.774@0.0.1376.774" timestamp="1581755669988" />
-    <state width="1333" height="176" key="GridCell.Tab.0.center" timestamp="1581755669988">
+    <state width="1333" height="175" key="GridCell.Tab.0.bottom/0.0.1376.774@0.0.1376.774" timestamp="1581756912065" />
+    <state width="1333" height="175" key="GridCell.Tab.0.center" timestamp="1581756912064">
       <screen x="0" y="0" width="1376" height="774" />
     </state>
-    <state width="1333" height="176" key="GridCell.Tab.0.center/0.0.1376.774@0.0.1376.774" timestamp="1581755669988" />
-    <state width="1333" height="176" key="GridCell.Tab.0.left" timestamp="1581755669988">
+    <state width="1333" height="175" key="GridCell.Tab.0.center/0.0.1376.774@0.0.1376.774" timestamp="1581756912064" />
+    <state width="1333" height="175" key="GridCell.Tab.0.left" timestamp="1581756912064">
       <screen x="0" y="0" width="1376" height="774" />
     </state>
-    <state width="1333" height="176" key="GridCell.Tab.0.left/0.0.1376.774@0.0.1376.774" timestamp="1581755669988" />
-    <state width="1333" height="176" key="GridCell.Tab.0.right" timestamp="1581755669988">
+    <state width="1333" height="175" key="GridCell.Tab.0.left/0.0.1376.774@0.0.1376.774" timestamp="1581756912064" />
+    <state width="1333" height="175" key="GridCell.Tab.0.right" timestamp="1581756912064">
       <screen x="0" y="0" width="1376" height="774" />
     </state>
-    <state width="1333" height="176" key="GridCell.Tab.0.right/0.0.1376.774@0.0.1376.774" timestamp="1581755669988" />
+    <state width="1333" height="175" key="GridCell.Tab.0.right/0.0.1376.774@0.0.1376.774" timestamp="1581756912064" />
   </component>
   <component name="masterDetails">
     <states>

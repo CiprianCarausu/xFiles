@@ -40,14 +40,22 @@ public class ObjectFactory {
         return null;
     }
 
+    /**
+     * Polimorfism is the ability of an object to take on many forms
+     * @param objectType
+     * @param objectAttributesValues
+     * @return
+     */
     public static Obstacle createObstacle(String objectType, Map<String, String> objectAttributesValues) {
         Obstacle obstacle;
         String type = objectAttributesValues.get(Constants.TYPE);
         if (type.equals(Constants.ANIMAL)) {
+            // The returned type is obstacle, but here we are instantiating an Animal object.
             return new Animal();
         } else if (type.equals(Constants.HOLE)) {
             return new Hole();
         }
+        //the constructor is used to instantiate an object (allocates memory)
         return new Obstacle();
     }
 

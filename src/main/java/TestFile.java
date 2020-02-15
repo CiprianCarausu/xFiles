@@ -10,6 +10,9 @@ import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 
+/**
+ * Do not create a God Class (a class that has many behaviours)
+ */
 public class TestFile {
     public static void main(String[] args) throws Exception {
         File file = new File(TestFile.class.getClassLoader().getResource("text.txt").getFile());

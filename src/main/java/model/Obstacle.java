@@ -9,6 +9,9 @@ public class Obstacle implements Comparable<Obstacle> {
         this.size = size;
     }
 
+    /**if we have a constructor with parameters, the default constructor is not longer implicit.
+     * nice to have: try to define all the time a default no args construtor
+     */
     public Obstacle() {
 
     }
