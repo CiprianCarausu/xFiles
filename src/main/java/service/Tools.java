@@ -28,6 +28,12 @@ public class Tools {
         }
     }
 
+    /**
+     * Here we have two bubblesort methods that are based on the overLoading concept.
+     * overloading = a method with the same name, return type but with different parameters
+     * @param array
+     */
+
     public static void bubbleSort(List<Integer> array) {
         int temp = 0;
         boolean fixed = false;
@@ -50,6 +56,12 @@ public class Tools {
         }
     }
 
+    /**
+     * Here we have two bubblesort methods that are based on the overLoading concept.
+     * overloading = a method with the same name, return type but with different parameters
+     * @param array
+     */
+
     public static void bubbleSort(int[] array) {
         int temp = 0;
         boolean fixed = false;
@@ -71,4 +83,5 @@ public class Tools {
             System.out.print(str + array[i]);
         }
     }
+
 }

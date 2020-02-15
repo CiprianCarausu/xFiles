@@ -6,13 +6,15 @@ import service.Tools;
 import java.io.File;
 import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.List;
 
 public class TestFile {
     public static void main(String[] args) throws Exception {
         File file = new File(TestFile.class.getClassLoader().getResource("text.txt").getFile());
         String path = file.getAbsolutePath();
-        path = path.replace("%20" , " ");
+        path = path.replace("%20", " ");
 
 
         List<String> linesFromFile = ReadFile.readFile(path);
@@ -25,7 +27,7 @@ public class TestFile {
 //        }*/
 
         List<Obstacle> obstacles = new ArrayList<Obstacle>();
-
+        List<Obstacle> obstaclesCollection = new ArrayList<Obstacle>();
 
         Deserialization deserialization = new Deserialization();
 
@@ -34,12 +36,21 @@ public class TestFile {
                 Object object = deserialization.deserialize(line);
                 if (object instanceof Obstacle) {
                     obstacles.add((Obstacle) object);
+                    obstaclesCollection.add((Obstacle) object);
                 }
                 System.out.println(object);
             } catch (Exception ex) {
                 System.out.println("Wrong text: " + line);
             }
         }
+
+        System.out.println("----------------------------");
+        System.out.println("------- sorted Collection ------ ");
+        Collections.sort(obstaclesCollection);
+        for (int i = 0; i < obstaclesCollection.size(); i++) {
+            System.out.println(obstaclesCollection.get(i));
+        }
+
         System.out.println("----------------------------");
         for (int i = 0; i < obstacles.size(); i++) {
             System.out.println(obstacles.get(i));

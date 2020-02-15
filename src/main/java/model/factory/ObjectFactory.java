@@ -9,7 +9,16 @@ import service.Constants;
 import java.util.Map;
 
 public class ObjectFactory {
-
+    /**
+     * Here we have the factory method (design pattern) which creates objects based on parameters.
+     * We are using it due to the fact that if we change the input we can obtain a different object.
+     * Meaning that, in case we have new classes needed in the application we can give to the factory method the ability
+     * to create it.
+     *
+     * @param objectType
+     * @param objectAttributesValues
+     * @return
+     */
     public static Object create(String objectType, Map<String, String> objectAttributesValues) {
 
         if (objectType.equals(Constants.CAR)) {

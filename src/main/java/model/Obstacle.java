@@ -1,6 +1,6 @@
 package model;
 
-public class Obstacle {
+public class Obstacle implements Comparable<Obstacle> {
     private String type;
     private int size;
 
@@ -35,5 +35,16 @@ public class Obstacle {
                 "type='" + type + '\'' +
                 ", size=" + size +
                 '}';
+    }
+
+    //a negative integer, zero, or a positive integer as this object is less than, equal to, or greater than the specified object.
+    public int compareTo(Obstacle o) {
+        if (this.getSize() > o.getSize()) {
+            return 1;
+        } else if (this.getSize() == o.getSize()) {
+            return 0;
+        } else {
+            return -1;
+        }
     }
 }

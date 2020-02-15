@@ -5,3 +5,8 @@ obstacle: type, hole;size, 3;
 obstacle: type, hole;size, 2;
 obstacle: type, animal;size, 4;
 obstacle: type, sign;
+Highway: height, 100; width, 200; lanes; cars; obstacles;
+Lanes: direction, true; position, 10;
+Lanes: direction, true; position, 11;
+Lanes: direction, false; position, 13;
+Lanes: direction, false; position, 14;
